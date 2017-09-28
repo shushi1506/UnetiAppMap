@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_feeds"
+            android:icon="@drawable/ic_newfeed"
+            android:title="Tin tuyển sinh" />
+        <item
+            android:id="@+id/nav_infomation"
+            android:icon="@drawable/ic_action_favorite"
+            android:title="Tra Cứu Thong Tin" />
+        <item
+            android:id="@+id/nav_khoa_cntt"
+            android:icon="@drawable/ic_action_good"
+            android:title="Khoa Công Nghệ Thông Tin" />
+        <item
+            android:id="@+id/nav_gpss"
+            android:icon="@drawable/ic_gps"
+            android:title="Vị Trí" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_communication"
+            android:title="Liên Hệ" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Thông báo" />
+    </group>
+</menu>

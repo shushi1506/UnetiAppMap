@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Spinner
+                android:id="@+id/spinner_nam_dao_tao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/cac_he_dao_tao"
+                android:prompt="@string/he_dao_tao">
+
+            </Spinner>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/cac_nam_diem_chuan"
+                android:prompt="@string/cac_nam">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:adjustViewBounds="true"
+            android:fadeScrollbars="true"
+            android:src="@drawable/diemchuan"
+            tools:overScrollMode="always" />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
