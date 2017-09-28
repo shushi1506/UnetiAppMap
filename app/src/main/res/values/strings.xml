@@ -40,6 +40,8 @@
         <item>2011</item>
     </string-array>
     <string name="minhKhai">Cơ Sở Minh Khai</string>
+    <string name="minhKhaiLatLng">20.995694, 105.865522</string>
+    <string name="lingNamLatLng">20.980092, 105.876253</string>
     <string name="linhNam">Cơ Sở Lĩnh Nam</string>
     <string-array name="dia_chi_lien_he">
         <item>@string/minhKhai</item>

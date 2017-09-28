@@ -70,14 +70,6 @@ public class MapActivity extends SampleActivityBase implements OnMapReadyCallbac
             @Override
             public void onPlaceSelected(Place place) {
                 // TODO: Get info about the selected place.
-//                Log.i("abc", "Place: " + place.getName());
-
-//                String placeDetailsStr = place.getName() + "\n"
-//                        + place.getId() + "\n"
-//                        + place.getLatLng().toString() + "\n"
-//                        + place.getAddress() + "\n"
-//                        + place.getAttributions();
-//                etOrigin.setText(place.getName());
                 placePickName= (String) place.getName();
             }
 
@@ -90,9 +82,9 @@ public class MapActivity extends SampleActivityBase implements OnMapReadyCallbac
             @Override
             public void onClick(View v) {
                 if(diaChiLienHe.getSelectedItem().equals(getResources().getString(R.string.minhKhai))){
-                    destination="20.995694, 105.865522";
+                    destination=getResources().getString(R.string.minhKhaiLatLng);
                 }else {
-                    destination="20.980092, 105.876253";
+                    destination=getResources().getString(R.string.lingNamLatLng);
                 }
                 sendRequest();
             }
